@@ -44,432 +44,835 @@ Periodo de una onda seno
 ### CAPÍTULO 11: INTRODUCCIÓN A LA CORRIENTE Y AL VOLTAJE ALTERNOS
 
 
-	SECCIÓN 11–1 La forma de onda sinusoidal
-
-1. Calcule la frecuencia con cada uno de los siguientes valores de periodo:
-
-(a) 1 s
-
-![1](https://user-images.githubusercontent.com/93834732/149860882-6ada7e75-ffcb-4576-8093-d5c9cd4e7d1a.GIF)
-
-(b) 0.2 s
-
-![2](https://user-images.githubusercontent.com/93834732/149860949-cf1f5d62-ea16-407d-ab1c-a6a710819c30.GIF)
-
-(c) 50 ms
-
-![3](https://user-images.githubusercontent.com/93834732/149861045-ab5623c7-12b4-43e5-ba23-bc94a763bf1b.GIF)
-
-(d) 1 ms
-
-![4](https://user-images.githubusercontent.com/93834732/149861091-69418e59-c353-4585-ba3d-b3b83bc08f3d.GIF)
-
-(e) 500 micro segundos
-
-![5](https://user-images.githubusercontent.com/93834732/149861142-28be181e-cfda-4d31-9fb6-f0fc49234ce7.GIF)
-
-(f) 10 micros segundos
-
-![6](https://user-images.githubusercontent.com/93834732/149861343-ef38836a-8a6c-4473-b2f1-c55b112c8043.GIF)
-
-3. Una onda seno realiza 5 ciclos en 10 micro segundos. ¿Cuál es su periodo?
-
-![7](https://user-images.githubusercontent.com/93834732/149861965-401c5d77-f80d-4c64-9144-03ddbc7941ee.GIF)
-
-	SECCIÓN 11–2 Fuentes de voltaje sinusoida
 	
-5. La espira conductora del rotor de un generador monofásico de dos polos gira a 250 rps. ¿Cuál es la frecuencia del voltaje de salida inducido?
+                                        Introducción a la corriente y al voltaje alternos
+                                        
+2. Calcule el periodo de cada uno de los siguientes valores de frecuencia:
 
-![8](https://user-images.githubusercontent.com/93834732/149862225-6f98ac58-0e81-40c4-bb92-8f8916255c6f.GIF)
+a) 1 Hz:  
 
-7.¿A qué rapidez de rotación debe ser operado un generador de cuatro polos para producir un voltaje sinusoidal de 400 Hz?
+T=1/f=1/1=1 (s)
 
-![9](https://user-images.githubusercontent.com/93834732/149862367-ac2c50a9-6885-41d0-8b15-88f2ba4d06ea.GIF)
+b) 60 Hz:
 
-	SECCIÓN 11–3 Valores sinusoidales de voltaje y corriente
+T=1/f=1/60=0.016 (s)
 
-9. El valor rms de una corriente sinusoidal es de 5 mA. Determine los siguientes valores
+c) 500 Hz:
 
-(a) pico
+T=1/f=1/500=2m (s)
 
-![10](https://user-images.githubusercontent.com/93834732/149864366-aec3480f-443f-44c9-8e8c-12391252845e.GIF)
+d) 1 kHz:
 
-(b) promedio
+T=1/f=1/1k=1m (s)
 
-![12](https://user-images.githubusercontent.com/93834732/149864723-d1b5de22-3d89-452e-86bd-52fcef9f1162.GIF)
+e) 200 kHz: 
 
-(c) pico a pico
+T=1/f=1/200k=5µ (s)
 
-![11](https://user-images.githubusercontent.com/93834732/149864469-df7f40d5-7a46-4675-80cf-1225ef6dd6a3.GIF)
+f) 5MHz:
 
-	SECCIÓN 11–4 Medición angular de una onda seno
+T=1/f=1/5M=0.2 µ (s)
 
-11. Transforme los siguientes valores angulares de grados a radianes:
+4.  Una onda seno tiene frecuencia de 50 kHz. ¿Cuántos ciclos completa en 10 ms?
 
-(a) 30 Grados
+Calculando el periodo:
 
-![13](https://user-images.githubusercontent.com/93834732/149866735-1085de80-dd38-4674-8625-1a03e5300ec1.GIF)
+T=1/f=1/50k=0.02 m (s)
 
-(b) 45 Grados
+Aplicando Regla de tres:
 
-![14](https://user-images.githubusercontent.com/93834732/149866675-178d5306-a2ea-43eb-91f2-cc33b007ec4c.GIF)
+1ciclo→→0.02m(s)
 
-(c) 78 Grados
+ciclos?→→10m(s)
 
-![15](https://user-images.githubusercontent.com/93834732/149866599-232216d4-24c2-4788-ae96-816d92331847.GIF)
+x=(10m∙1)/0.02m=50 ciclos completa en 10 m(s)
 
-(d) 135 Grados
+6. Cierto generador de cuatro polos gira a 3600 rpm. ¿Cuál es la frecuencia del voltaje que produce?
 
-![16](https://user-images.githubusercontent.com/93834732/149866507-b463adef-91ae-47d0-80ab-a6be8c4de105.GIF)
+Transformando a revoluciones por segundo:  3600 rpm→→60rps
 
-(e) 200 grados
+Utilizando la fórmula: f= (número de pares de polos) (rps)
 
-![17](https://user-images.githubusercontent.com/93834732/149866808-3df37fb4-0a62-4283-bc75-5332d93819bc.GIF)
+f=4∙60rps=240 Hz
 
-(f) 300 Grados
+8. El valor pico de una onda seno es de 12 V. Determine los siguientes valores: 
 
-![18](https://user-images.githubusercontent.com/93834732/149866854-4a08e6c7-f34c-4a1f-94d2-42ffa180dd15.GIF)
+- a) rms:
 
-13. Una onda seno A tiene un cruce por cero hacia positivo en 30°. La onda seno B tiene un cruce por cero hacia positivo en 45°. Determine el ángulo de fase que hay entre las dos señales. ¿Cuál señal es la que se adelanta?
+Vrms=0.707∙Vp
 
-El angulo de fase es de 15 grados y la onda B esta retrasada con respecto a la onda A
+Vrms=0.707∙12
 
-15. Trace un bosquejo de dos ondas seno como sigue: la onda seno A es la referencia y la onda seno B se
-retrasa 90° con respecto a la A. Ambas ondas tienen amplitudes iguales. 
+Vrms=8.48 v
 
-![19](https://user-images.githubusercontent.com/93834732/149867661-e9c31d23-0380-48b5-9549-a453d1a1bdb8.GIF)
+- b) pico a pico:
 
-	SECCIÓN 11–5 La fórmula de la onda seno 
+Vpp=2Vp
 
-17. Para una corriente sinusoidal particular referida a 0°, el valor pico es de 100 mA. Determine el valor instantáneo en cada uno de los siguientes puntos
+Vpp=2∙12
 
-(a) 35 Grados
+Vpp=24v
 
-![20](https://user-images.githubusercontent.com/93834732/149868236-05021602-e278-4582-afdc-546856b71cb2.GIF)
+- c) promedio:
 
-(b) 95 Grados
+Vprom=0.637∙Vp
 
-![21](https://user-images.githubusercontent.com/93834732/149868288-ba1377fe-9296-4e91-b7b2-48c49ab5f513.GIF)
+Vprom=0.637∙12
 
-(c) 190 Grados
+Vprom=7.64 v
 
-![22](https://user-images.githubusercontent.com/93834732/149868337-7b91980f-b4ce-4380-9170-e1d86d3aea87.GIF)
+10. Para la onda seno de la figura 11-77, determine los valores pico, pico a pico, rms y promedio
 
-(d) 215 Grados
+![image](https://user-images.githubusercontent.com/105684550/179119706-0ae31184-eb1b-45da-a19b-78b3c4cc9415.png)
 
-![23](https://user-images.githubusercontent.com/93834732/149868394-4954791b-e704-4727-9a83-2606e9aea1d5.GIF)
+Valor pico: 25v ; -25v
 
-(e) 275 Grados
+Valor pico a pico: 2Vp= 50v
 
-![24](https://user-images.githubusercontent.com/93834732/149868480-a9a017d0-75f6-4cc4-bbc9-fa7212ef89ab.GIF)
+Valor rms: 0.707Vp= 0.707*25= 17.675v
 
-(f) 360 Grados
+Valor promedio:  0.637Vp=0.637*25= 15.92v
 
-![25](https://user-images.githubusercontent.com/93834732/149868533-7296c650-d7e9-46ee-be58-4160235ab77e.GIF)
+12. Cambie los siguientes valores angulares de radianes a grados:
 
-19. La onda seno A tiene 30° de retraso con respecto a la onda seno B. Ambas tienen valores pico de 15 V. La onda seno A es la referencia con un cruce por cero hacia positivo en 0°. Determine el valor instantáneo de la onda seno B en 30°, 45°, 90°, 180°, 200°, y 300°. 
+- a) π/8 rad
 
-![26](https://user-images.githubusercontent.com/93834732/149868951-15f653f1-dc36-4b79-a4e1-3370076e902e.GIF)
+π/8∙180/π=22.5°
 
-![27](https://user-images.githubusercontent.com/93834732/149869014-c7eb26af-74a7-4325-b075-2220cf01e0a4.GIF)
+- b) π/3 rad
 
-![28](https://user-images.githubusercontent.com/93834732/149869074-7008e702-bf01-4f02-86c9-f7af93b06ab2.GIF)
+π/3∙180/π=60°
 
-![29](https://user-images.githubusercontent.com/93834732/149869142-d08cd312-984e-4551-b894-b7ddc0c0c2fb.GIF)
+- c) π/2 rad
 
-![30](https://user-images.githubusercontent.com/93834732/149869186-e8444a24-95d1-4a8c-99cb-161f4d0afcd1.GIF)
+π/2∙180/π=90°
 
-![31](https://user-images.githubusercontent.com/93834732/149869232-2df039a6-a5a7-4c15-bcf8-e33f64e1f1b3.GIF)
+- d)  3π/5 rad
 
-21.Cierta onda seno tiene frecuencia de 2.2 kHz y valor rms de 25 V. Suponiendo que se inicia un ciclo dado (cruce por cero) en el instante t = 0 s, ¿cuál es el cambio de voltaje desde 0.12 ms hasta 0.2 ms?
+3π/5∙180/π=108°
 
-El cambio que realiza desde 0.12ms hasta 0.2ms es de 22.09V.
+- e) 6π/5 rad
 
-	SECCIÓN 11–6 Introducción a los fasores
+6π/5∙180/π=216°
 
-23.Trace las ondas seno representadas por el diagrama fasorial de la figura 11-79. Las longitudes del fasor representan valores 
+- f) 1.8π rad
 
-![26](https://user-images.githubusercontent.com/93834732/149860086-3b1bbcdc-cd77-441f-ba00-303a1b7d9e9d.GIF)
+1.8π∙180/π=324°
 
-![32](https://user-images.githubusercontent.com/93834732/149870974-d9c099e9-d61b-43fc-8645-afb32d773d3c.png)
+14. Una onda seno tiene un pico positivo en 75° y otro con un pico positivo en 100°. ¿Cuánto se desfasa cada onda seno con respecto a la referencia de 0°? ¿Cuál es el ángulo de fase entre estas ondas?
 
-25. Determine el valor de la onda seno A mostrada en la figura 11-78 en cada uno de los tiempos siguientes, medido a partir del cruce por cero hacia positivo. Suponga una frecuencia de 5 kHz.
+La onda con pico positivo de 75 grados tiene un desfase de 15 grados, mientras que la onda de 100 grados tiene un desfase de 10 grados. El ángulo de fase entre estas ondas es la resta del ángulo de 100 grados menos 75 grados, dando como resultado un ángulo de fase de 25 grados que se encuentra entre las dos ondas. 
 
-![27](https://user-images.githubusercontent.com/93834732/149860160-1b76bf20-d8af-41fc-9abc-aab2cf5bae28.GIF)
+16. Cierta onda seno tiene un cruce por cero hacia positivo en 0° y valor rms de 20 V. Calcule su valor instantáneo en cada uno de los siguientes ángulos:
 
-(a) 30 micro segundos
+Transformando el valor rms a valor pico: Vp=Vrms/0.707= 28.28v 
 
-156 mV
+- a) 15°:
 
-(b) 75 micro segundos
+y=Asen(15)
 
-1V
+y=28.28∙sen(15)
 
-(c) 125 micro segundos
+y=7.31 v
 
-0V
+- b) 33°:
 
-	SECCIÓN 11–7 Análisis de circuitos de CA
-	
-**27. Encuentre los valores promedio en medio ciclo de los voltajes presentes entre los extremos de R1 y R2 en la figura 11-81. Todos los valores mostrados son rms.**
+y=Asen(30)
 
-![Screenshot 2022-01-17 202539](https://user-images.githubusercontent.com/93826527/149854947-e0e2da56-88d0-4426-85c5-d31353258e00.png)
+y=28.28∙sen(30)
 
-V_R2= 65-30 = 35 *1.414 = 49.5 * 0.637 = 31.52
+y=14.14 v
 
-Vrms= 35
+- c) 50°:
 
-Vpico = 49.5 
+y=Asen(50)
 
-Vprom= 31.52
+y=28.28∙sen(50)
 
-V_R1= 110-65 = 45 * 1.414 = 63.7 * 0.637 = 40.57 
+y=21.66 v
 
-Vrms= 45
+- d) 110°:
 
-Vpico = 63.7
+y=Asen(110)
 
-Vprom= 40.57
+y=28.28∙sen(110)
 
+y=26.57 v
 
-	SECCIÓN 11–8 Voltajes superpuestos de CD y de CA 
-	
-**29. Una onda seno con valor rms de 10.6 V aparece montada sobre un nivel de cd de 24 V. ¿Cuáles son los valores máximo y mínimo de la forma de onda resultante?**
+- e) 70°:
 
-Vp= Vrms * 1.414 = 10.6 * 1.414 = 14.99
+y=Asen(70)
 
-Vmáx = Vcd+Vp = 24+14.99 = 38.99
+y=28.28∙sen(70)
 
-Vmín = Vcd-Vp = 24-14.99 = 3.01
+y=26.57  v
 
+- f) 145°:
 
-Por consiguiente, VR(tot) es una onda seno no alterna que varía desde 38.99 (V) hasta 14.99 (V)
+y=Asen(145)
 
-**31. Una onda pico de 6 V aparece montada en un voltaje de cd de 8 V. Si el voltaje de cd se reduce a 5 V, ¿qué tan negativa llegaría a ser la onda seno?**
+y=28.28∙sen(145)
 
-Vmín1 = 8-6 = 2
+y=16.22 v
 
-Vmín2 = 5-6 = -1
+- g) 250°:
 
-La onda llegaría a un valor de -1 como mínimo
+y=Asen(250)
 
+y=28.28∙sen(250)
 
-	SECCIÓN 11–9 Formas de onda no sinusoidales 
-	
-**33. Con la gráfica de la figura 11-84, determine los valores aproximados de tr, tf, tW, y la amplitud**
+y=-26.57 v
 
-![Screenshot 2022-01-17 204416](https://user-images.githubusercontent.com/93826527/149856393-d72cdb19-6c6a-4df5-97c2-9735db301bc4.png)
+- h) 325°:
 
-![Screenshot 2022-01-17 205323](https://user-images.githubusercontent.com/93826527/149857137-73714535-e48e-4580-92c1-8adeca4f1054.png)
+y=Asen(325)
 
-tr = 3 (ms)
+y=28.28∙sen(325)
 
-tf = 3 (ms)
+y=-16.22 v
 
-tW = 12 (ms)
+18. Para una onda seno referida a 0° con valor rms de 6.37 V, determine el valor instantáneo en cada uno de los puntos siguientes:
 
-Amplitud es 5 (V), esto debido a que la línea base esta en cero (V)
+Transformando el valor rms a valor pico: Vp=Vrms/0.707= 9 v 
 
-**35. Calcule el valor promedio de la forma de onda pulsante mostrada en la figura 11-85. **
+- a) π/8 rad:
 
-![Screenshot 2022-01-17 205641](https://user-images.githubusercontent.com/93826527/149857422-517be814-1873-4e4a-9a57-81d3762dad54.png)
+y=Asen(π/8)
 
-T = 6 (μs)
+y=9∙sen(π/8)
 
-tw = 1 (μs)
+y=3.44  v
 
-ciclo de trabajo = (1/6)*100% = 16.67%
+- b) π/4 rad:
 
-Vprom = 5 + (0.1667*5) = 5.8335 (V)
+y=Asen(π/4)
 
+y=9∙sen(π/4)
 
+y=6.36  v
 
+- c) π/2 rad:
 
-	SECCIÓN 11–10 El osciloscopio
-	
+y=Asen(π/2)
 
+y=9∙sen(π/2)
 
+y=9 v
 
+- d) 3π/4 rad:
 
+y=Asen(3π/4)
 
+y=9∙sen(3π/4)
 
+y=6.36 v
 
+- e) π rad:
 
+y=Asen(π)
 
+y=9∙sen(π)
 
+y=0  v
 
+- f) 3π/2 rad:
 
-### CAPÍTULO 12: CAPACITORES
+y=Asen(3π/2)
 
-	SECCIÓN 12–1 El capacitor básico 
-**1.** 
+y=9∙sen(3π/2)
 
-![image](https://user-images.githubusercontent.com/93396250/149892188-f6b9c658-7aa5-421f-9188-c661cc34bc65.png)
+y=-9 v
 
-**3.Transforme los siguientes valores de picofarads a microfarads:** 
+- g) 2π rad:
 
-![image](https://user-images.githubusercontent.com/93396250/149892202-4b589a84-6596-44e1-bce5-db73f1894ae3.png)
+y=Asen(2π)
 
+y=9∙sen(2π)
 
-**5. ¿Cuánta energía guarda un capacitor de 1000 μF que se carga a 500 V?**
+y=0 v
 
-![image](https://user-images.githubusercontent.com/93396250/149892225-62bb6e72-6cfc-474c-9025-4b5cb99212a0.png)
+20. Repita el problema 19 para el caso en que la onda seno A va 30° delante de la onda seno B.
 
+Problema 9: La onda seno A tiene 30° de retraso con respecto a la onda seno B. Ambas tienen valores pico de 15 V. La onda seno A es la referencia con un cruce por 
+cero hacia positivo en 0°. Determine el valor instantáneo de la onda seno B en 30°, 45°, 90°, 180°, 200°, y 300°.
 
+Como en este caso se adelanta entonces:
 
-**7. Calcule la permitividad absoluta, ε, para cada uno de los siguientes materiales. Consulte la tabla 12-3 para obtener los valores de εr.** 
+- En 30°:
 
-![image](https://user-images.githubusercontent.com/93396250/149892256-65f0900b-db36-4147-a63c-2b40fc9a9d79.png)
+y=Asen(θ+∅)
 
-**9. Un capacitor de aire tiene un área de placas total de 0.05 m2. La separación entre las placas es de 4.5 x 10-4 m. Calcule la capacitancia.**
+y=15∙sen(30+30)
 
-![image](https://user-images.githubusercontent.com/93396250/149892288-45730e16-643f-417d-b814-09cd5c5d2565.png)
+y=12.99 v
 
+- En 45°:
 
-**11. Un estudiante decide construir un capacitor con dos placas conductoras de 30 cm por lado. Separa las placas con un dieléctrico de papel (εr = 2.5) de 8 x 10-5 de espesor. ¿Cuál es la capacitancia de su capacitor?**
+y=Asen(θ+∅)
 
-![image](https://user-images.githubusercontent.com/93396250/149892344-24accaf8-37a8-45aa-88be-0a732bf10b0e.png)
+y=15∙sen(45+30)
 
+y=14.48 v
 
-**13. Un capacitor de 0.001 μF tiene coeficiente de temperatura positivo de 500 ppm/°C. ¿Cuánto cambio de capacitancia provocará un incremento de 25°C en la temperatura?**
+- En 90°:
 
-![image](https://user-images.githubusercontent.com/93396250/149892384-529aa1f3-7cab-4dc8-999e-6f785187cf99.png)
+y=Asen(θ+∅)
 
+y=15∙sen(90+30)
 
-	SECCIÓN 12–2 Tipos de capacitores
-	
-**15. De mica o cerámica, ¿cuál tipo de capacitor tiene la constante dieléctrica más alta?**
+y=12.99 v
 
-![image](https://user-images.githubusercontent.com/93396250/149892502-592c980c-34b7-425a-9cda-8e0cd4f4b2c3.png)
+- En 180°:
 
+y=Asen(θ+∅)
 
-**17. Nombre dos tipos de capacitores electrolíticos. ¿Cómo difieren los capacitores electrolíticos de otros capacitores?**
+y=15∙sen(180+30)
 
-![image](https://user-images.githubusercontent.com/93396250/149892546-2969430c-db6a-4b4c-b5da-3b5dfdcb7899.png)
+y=-7.5 v
 
+- En 200°:
 
-**19. Determine el valor de los capacitores de disco de cerámica mostrados en la figura 12-68**
-	
-![image](https://user-images.githubusercontent.com/93396250/149892582-75bcfe73-30e4-4989-b075-55ea685ea7d7.png)
+y=Asen(θ+∅)
 
+y=15∙sen(200+30)
 
-	SECCIÓN 12–3 Capacitores en serie 
-**21. Determine la capacitancia total para cada uno de los circuitos mostrados en la figura 12-69.**
+y=-11.49 v
 
-![image](https://user-images.githubusercontent.com/93396250/149892667-4fc370ba-212b-4602-9a16-cabe73171087.png)
+- En 300°:
 
-**23. Dos capacitores en serie (uno de 1 μF, el otro de valor desconocido) se cargan con una fuente de 12 V. El capacitor de 1 μF se carga a 8 V y el otro a 4 V. ¿Cuál es el valor del capacitor desconocido?**
+y=Asen(θ+∅)
 
+y=15∙sen(300+30)
 
-![image](https://user-images.githubusercontent.com/93396250/149892702-73ae571d-bdd8-47cc-a0ce-45a248c97b3c.png)
+y=-7.5 v
 
+22. Trace un diagrama fasorial para representar las ondas seno de la figura 11-78 con respecto a la referencia de 0°.
 
-	SECCIÓN 12–4 Capacitores en paralelo 
-**25. Determine la CT para cada circuito de la figura 12-71.**
+![image](https://user-images.githubusercontent.com/105684550/179120211-19a2f50b-61d0-49d0-93ba-e0da337a8c44.png)
 
-![image](https://user-images.githubusercontent.com/93396250/149892795-9fdda74e-07c7-4ac5-9099-4fdfa9eceec9.png)
+![image](https://user-images.githubusercontent.com/105684550/179120270-cb59bc67-5453-4608-89ac-bf2589f36708.png)
 
 
-**27. Determine la CT para cada circuito de la figura 12-72.**
+24. Determine la frecuencia para cada velocidad angular:
 
-![image](https://user-images.githubusercontent.com/93396250/149892871-aee7882f-ffee-4e9a-8c8c-10189f830311.png)
+- a) 60 rad/s:
 
+ω=2πf
 
-**29. Inicialmente, los capacitores del circuito de la figura 12-73 están descargados.**
+f=ω/2π=60/2π=9.55 Hz
 
-![image](https://user-images.githubusercontent.com/93396250/149892931-65d0d197-591b-46b7-9278-5e6ed7f33288.png)
+- b) 360 rad/s:
 
+ω=2πf
 
-	SECCIÓN 12–5 Capacitores en circuitos de CD
-	
- **31. Determine cuánto tiempo se lleva el capacitor para cargarse por completo con cada una de las combinaciones siguientes:**
+f=ω/2π=360/2π=57.29 Hz
+
+- c) 2 rad/s:
+
+ω=2πf
+
+f=ω/2π=2/2π=0.32 Hz
+
+- d) 1256 rad/s:
+
+ω=2πf
+
+f=ω/2π=1256/2π=199.9 Hz
+
+26. Se aplica un voltaje sinusoidal al circuito resistivo de la figura 11-80. Determine los valores siguientes:
  
- a) t = R * C = 0.002632 (s) * 5 = 0.846 (s) es el tiempo que se necesita para cargar el capacitor
- 
- b) t = R * C = 49.5 (μs) *5 = 247.5 (μs)
- 
- c) t = 2.2 (ms) *5 = 11 (ms)
- 
- d) t = 56 (ms) *5 = 280 (ms)
- 
- **33. En la figura 12-75, el capacitor se carga a 25 V. Cuando se cierra el interruptor, ¿cuál es el voltaje presente en el capacitor en los instantes posteriores**
- 
-a) t = R*C = 1.5 (ms)
- 
- ![Screenshot 2022-01-17 213259](https://user-images.githubusercontent.com/93826527/149860880-1830697e-c104-497b-8a3a-2de6b58cf90c.png)
 
-Vc = 25 * 0.36787 = 9.196 (V)
+- a) Irms=(Vs(rms))/Rtot=10V/1kΩ=10mA
 
-b) t = R*C = 1.5 (ms)
- 
- ![Screenshot 2022-01-17 213259](https://user-images.githubusercontent.com/93826527/149860880-1830697e-c104-497b-8a3a-2de6b58cf90c.png)
-
-Vc = 25 * 0.04978 = 1.2445 (V)
-
-c) t = R*C = 1.5 (ms)
- 
- ![Screenshot 2022-01-17 213259](https://user-images.githubusercontent.com/93826527/149860880-1830697e-c104-497b-8a3a-2de6b58cf90c.png)
-
-Vc = 25 * 0.01831 = 457.7 (mV)
-
-d) t = R*C = 1.5 (ms)
- 
- ![Screenshot 2022-01-17 213259](https://user-images.githubusercontent.com/93826527/149860880-1830697e-c104-497b-8a3a-2de6b58cf90c.png)
-
-Vc = 25 * 0.00673 = 168.25 (mV)
-
-**49. Repita el problema 33 con los siguientes tiempos:**
-
-a) t = R*C = 1.5 (ms)
- 
- ![Screenshot 2022-01-17 213259](https://user-images.githubusercontent.com/93826527/149860880-1830697e-c104-497b-8a3a-2de6b58cf90c.png)
-
-Vc = 25 * 0.71653 = 17.913 (V)
-
-b) t = R*C = 1.5 (ms)
- 
- ![Screenshot 2022-01-17 213259](https://user-images.githubusercontent.com/93826527/149860880-1830697e-c104-497b-8a3a-2de6b58cf90c.png)
-
-Vc = 25 * 0.51341 = 12.835 (V)
-
-c) t = R*C = 1.5 (ms)
- 
- ![Screenshot 2022-01-17 213259](https://user-images.githubusercontent.com/93826527/149860880-1830697e-c104-497b-8a3a-2de6b58cf90c.png)
-
-Vc = 25 * 0.26359 = 6.589 (V)
-		
+- b) Iprom=(0.637)(Ip)=(0.637)(14.14mA)=9mA
+  
+- c) Ip=(1.414)(Irms)=(1.414)(10mA)=14.14mA
 	
-	SECCIÓN 12–7 Aplicaciones de los capacitores 
-
-51. Si se conecta otro capacitor en paralelo con el capacitor existente en el filtro de fuente de potencia de la figura 12-53, ¿cómo se ve afectado el voltaje de fluctuación?
-
-El voltaje se reduce
-
-	SECCIÓN 12–8 Circuitos de capacitor conmutado
+- d) Ipp=(2.828)(Irms)=(2.828)(10mA)=28.28mA
 	
-53. En un circuito de capacitor conmutado, el capacitor tiene un valor de 2200 pF y se conmuta con una forma de onda cuyo periodo es de 10 ms. Determine el valor del resistor que se emula.
+ -e) I en el pico positivo
 
-El valor de la resistencia que emula es de 45 Kilo Ohms
+Ip+=7.07mA
 
-## 4.	VIDEO
-	
-	Link del video ¨Informe tarea 6¨, en dondé se explican 4 ejercicios vistos en la Tarea #6 :
-	
-https://youtu.be/Tztelpws1Uo
-	
-	
-
-	
-## 5.	CONCLUSIONES
-        
-**a.**	Se logró concluir, que un circuito de corriente o voltaje alterno, se basa en ondas sinusoidales. Es decir que tiene un pico máximo y uno mínimo, siendo este de polaridad diferente, cada que pasa por la línea base hacia el eje positivo o negativo.
-		
-**b.**	Los capacitores y por consecuencia los circuitos capacitivos, tienen características físicas que les permiten guardar energía eléctrica en forma de carga, debido a que pueden absorver todos los electrones en uno de sus polos y mantenerlos allí hasta que se necesite descargarlos sobre algún circuito o elemento.
-
-**c.**	Se pudo evidenciar la relación analoga que tienen los circuitos capacitivos y resistivos, mediante sus fórmulas para encontrar capacitores y resistencias en serie, paralelo, lo cual indica que mientras las resistencias ayudan a controlar voltaje, mientras los capacitores controlan corriente absorviendo carga.
-
-## 6.	BIBLIOGRAFÍA
-
-Floyd, T. L. (2007). PRINCIPIOS DE CIRCUITOS ELÉCTRICOS - Octava edición. México: PEARSON EDUCACIÓN.
+28. Determine el voltaje rms entre los extremos de R3 en la figura 11-82.
+ 
+![image](https://user-images.githubusercontent.com/105684550/179120921-52796461-baf0-4c31-8bd4-3d43644e186c.png)
 
 
+Vrms=Vp/1.414=16V/1.414=11.32V
+
+Irms=V1/R1=5.66V/1kΩ=5.66mA
+
+Rtot=Vrms/Irms=11.32V/5.66mA=2kΩ
+
+R2=V2/Irms=5V/5.66mA=0.88kΩ
+
+R3=Rtot-R1-R2-R4=2kΩ-1kΩ-0.88kΩ-0.56kΩ=-0.44kΩ
+
+V3(rms)=(Irms)(R3)=(5.66mA)(-0.44kΩ)=-2.49V
+
+30. ¿Cuánto voltaje de cd se debe agregar a una onda seno de 3 V rms para hacer el voltaje resultante no alterno (valores negativos)?
+
+Vp=(1.414)(Vrms)=(1.414)(3V)=4.242V
+
+Vmin=Vcd-Vp
+
+(-1)=Vcd-4.242V
+
+(-1)+4.242V=Vcd
+
+Vcd≥3.242V
+
+32. La figura 11-83 muestra una fuente de voltaje sinusoidal dispuesta en serie con una fuente de cd. Efectivamente, los dos voltajes están superpuestos. Determine la disipación de potencia en el resistor de carga.
+
+![image](https://user-images.githubusercontent.com/105684550/179120978-930600e7-f279-4b46-b33f-15451b83d634.png)
+
+VPP=2VP=2(150)=300V
+
+VT=VS+VPP=200V+300V=500V
+
+P=V^2/R=〖(500V)〗^2/100=2.5kW
+
+34. La frecuencia de repetición de una forma de onda pulsante es de 2 kHz, y el ancho de pulso es de 1 ms. ¿Cuál es el ciclo de trabajo en porcentaje?
+
+T=1/f=1/2kHz=0.5µs
+
+Ciclo de trabajo en porcentaje=(tw/T)100%=((1000µs)/(0.5µs))100%=200000%
+
+36. Determine el ciclo de trabajo de cada una de las formas de onda mostradas en la figura 11-86.
+
+![image](https://user-images.githubusercontent.com/105684550/179121115-88082ab8-0ddb-4c7d-95c8-ab171317c87f.png)
+
+- a) T=4µs
+
+f=(1µs)/(4µs)=0.25kHz
+
+Ciclo de trabajo en porcentaje:(0.25kHz)100%=25%
+
+- b) T=20µs
+
+f=(20µs)/(40µs)=0.5kHz
+
+Ciclo de trabajo en porcentaje:(0.5kHz)100%=50%
+
+40. Una forma de onda no sinusoidal llamada escalonada se muestra en la figura 11-88. Determine su valor promedio.
+ 
+![image](https://user-images.githubusercontent.com/105684550/179121195-036f8c34-81e2-4392-924d-684cbbc01494.png)
+
+Vprom=Linea base+(ciclo de trabajo)(amplitud)
+
+Vprom=0V+(1.17)(6)=7.02V
+
+42. ¿Cuál es la frecuencia fundamental de la onda cuadrada mencionada en el problema 41?
+
+T=40µs
+
+tw=20µs
+
+f=tw/T=(20µs)/(40µs)=0.5kHz
+
+44. Con base en los ajustes del instrumento y en un examen de la pantalla del osciloscopio y de la tarjeta prototipo mostrados en la figura 11-90, determine la frecuencia y el valor pico de las señales de entrada y salida. La forma de onda mostrada es el canal 1. Trace la forma de onda del canal 2 como aparecería en el osciloscopio con los ajustes indicados.
+
+![image](https://user-images.githubusercontent.com/105684550/179121256-25490025-7618-43ad-9570-54a91061918b.png)
+
+Vpp=2 divisiones×5V=10V
+
+Vp=Vpp/2=10V/2=5V
+
+T=2 divisones×0.1ms=0.2ms
+
+                                                         Capacitores
+
+2. Transforme los siguientes valores de microfarads a picofarads:
+
+a) 0.1 µF×〖10〗^6=100000pF
+
+b) 0.0025 µF×〖10〗^6=2500pF
+
+c) 4.7 µF×〖10〗^6=4700000pF
+
+4. Transforme los siguientes valores de farads a microfarads;
+
+a) 0.0000001 F×〖10〗^6=0.1µF
+
+b) 0.0022 F×〖10〗^6=2200µF
+
+c) 0.0000000015 F×〖10〗^6=0.0015µF
+
+6. ¿Qué tamaño de capacitor es capaz de guardar 10 mJ de energía con 100 V entre sus placas?
+
+v=w/Q=Q=W/V=1000000J/100V=10000 C
+
+C=Q/V=(10000 C)/(100 V)=1*〖10〗^8µF
+
+8. Un capacitor de mica tiene placas cuadradas de 3.8 cm por lado con una separación entre ellas de 2.5 mils. ¿Cuál es la capacitancia?
+
+C=(Aε_r (8.85*〖10〗^(-12)  F/m))/d
+
+C=(0.14m^2 )(5.0)(8.85*〖10〗^(-12)  F/m)/(2.5*〖10〗^(-5) m)=2.47*〖10〗^(-7) F
+
+C=0.25 μF
+
+![image](https://user-images.githubusercontent.com/105684550/179121949-706b0b33-078b-4974-855b-c92823a8107c.png)
+
+10. Un estudiante desea construir un capacitor de 1 F con dos placas cuadradas para un proyecto de feria de las ciencias. Planea utilizar un dieléctrico de papel (ε_r=2.5) de 8 *10^5 m de espesor. La feria de las ciencias se va a llevar a cabo en el “Astrodomo”. ¿Cabrá su capacitor en el “Astrodomo”? ¿De qué tamaño serían las placas si pudieran ser construidas?
+
+C=(Aε_r (8.85*〖10〗^(-12)  F/m))/d
+
+d=(Aε_r (8.85*〖10〗^(-12)  F/m))/C
+
+d=2.21 m
+
+El tamaño de capacitor es menor que el tamaño del Astrdomo, por lo cual el tamaño con el que terminara al ser construida es de 2.21m
+
+12. A temperatura ambiente (25°C), se especifica que cierto capacitor sea de 1000 pF. El capacitor tiene coeficiente de temperatura negativo de 200 ppm/°C. ¿Cuál es su capacitancia a 75°C?
+
+∆T=25C°
+
+(500 ppm/(C°))*25C°=12,500 ppm
+
+(1*〖10〗^6  pF/μF)*0.001μF=1000pF
+
+∆C=(1000/(1*〖10〗^6 ))*12,500 ppm=12.5 pF
+
+14. En la construcción de un capacitor de hojas de mica y laminillas apiladas, ¿cómo se incrementa el área de placas?
+
+Las laminillas metálicas forman la placa, con las laminillas alternas conectadas entre sí, para incrementar el área de placas y se utilizan mas capas para incrementar el área de placas, por lo cual se incrementa la capacitancia.
+
+16. Muestre cómo conectar un capacitor electrolítico de un lado a otro de R2 entre los puntos A y B en la figura 12-66.
+
+![image](https://user-images.githubusercontent.com/105684550/179122312-d12679a6-ba7d-4ae3-b12b-46ccc7cbdc37.png)
+![image](https://user-images.githubusercontent.com/105684550/179122354-ad9df0e1-e330-4e0d-80ea-7cbec00ef95e.png)
+
+18. Identifique las partes del capacitor de disco de cerámica mostrado en la vista de corte de la figura 12-67.
+
+![image](https://user-images.githubusercontent.com/105684550/179122366-3fdb777b-6a41-43de-b8a5-abf612b9dec6.png)
+
+20. Cinco capacitores de 1000 pF están en serie. ¿Cuál es la capacitancia total?
+
+C_T=1/(1/1000pF+1/1000pF+1/1000pF+1/1000pF+1/1000pF)
+
+C_T=200 pF
+
+22. Para cada circuito de la figura 12-69, determine el voltaje entre las terminales de cada capacitor.
+
+![image](https://user-images.githubusercontent.com/105684550/179122426-c5721a3e-b54e-41c7-afb3-d1f4009e4e7f.png)
+
+C_T=1/(1/(1µF)+1/(2.2µF))=0.69µF
+
+Aplicar voltajes en capacitores:
+
+V_C1=(C_T/C_X )*VT=((0.69µF)/(1µF))*10V=6.9V
+
+V_C2=((0.69µF)/(2.2µF))*10V=3.14V
+ 
+![image](https://user-images.githubusercontent.com/105684550/179122517-20f1ef4e-8a70-4ada-9ec8-e4d4a0f9f7de.png)
+
+C_T=1/(1/100pF+1/560pF+1/390pF)=69.68pF
+
+Aplicar voltajes en capacitores:
+
+V_C1=(C_T/C_X )*VT=((69.68F)/100pF)*100V=69.68V
+
+V_C2=((69.68pF)/560pF)*100V=12.44V
+
+V_C3=((69.68pF)/390pF)*100V=17.87V
+ 
+![image](https://user-images.githubusercontent.com/105684550/179122576-e6921c97-b1f1-40d9-beef-e4d182ac3a9b.png)
+
+C_T=1/(1/(10µF)+1/(4.7µF)+1/(47µF)+1/(22µF))=2.64µF
+
+Aplicar voltajes en capacitores:
+
+V_C1=(C_T/C_X )*VT=((2.64µF)/(10µF))*30V=7.92V
+
+V_C2=((2.64µF)/(4.7µF))*30V=16.85V
+
+V_C3=((2.64µF)/(47µF))*30V=1.66V
+
+V_C4=((2.64µF)/(22µF))*30V=3.6V
+
+24. La carga total guardada por los capacitores en serie de la figura 12-70 es de 10 µC. Determine el voltaje entre las terminales de cada capacitor.
+
+![image](https://user-images.githubusercontent.com/105684550/179122602-2d4c70bf-e762-4ab2-abe3-9cfda90ad37a.png)
+
+C_T=1/(1/(4.7µF)+1/(1µF)+1/(2.2µF)+1/(10µF))=0.57µF
+
+V=Q/C=10/(0.57)=17.54 V
+
+Aplicar voltajes en capacitores:
+
+V_C1=(C_T/C_X )*VT=((0.57µF)/(4.7µF))*17.54V=2.13V
+
+V_C2=((0.57µF)/(1µF))*17.54V=9.99 V
+
+V_C3=((0.57µF)/(2.2µF))*17.54V=4.54 V
+
+V_C4=((0.57µF)/(10µF))*17.54V=0.99 V
+
+26. ¿Cuál es la carga en cada capacitor de la figura 12-71?
+
+![image](https://user-images.githubusercontent.com/105684550/179122659-d6b24f14-a102-4a16-a615-871568ad4e95.png)
+
+Q_T=Q_1+Q_2+Q_3=570.01µC
+
+C=Q/V»Q=C*V
+
+Calculamos la carga de cada capacitor:
+
+Q_1=C_1*V_1=47µF*10V=470µC
+
+Q_2=10µF*10V=100µC
+
+Q_3=0.001µF*10V=0.01µC
+
+28. ¿Cuál es el voltaje entre los nodos A y B en cada circuito de la figura 12-72?
+
+![image](https://user-images.githubusercontent.com/105684550/179122679-e3a8393b-e179-4a57-8b6b-efe6eb8e96b5.png)
+
+C_T=C_1+C_2=2.2µF+3.3µF=5.5µF
+
+Q_T=C_T*V=(5.5µF)(5V)=27.5µC
+
+V=(27.5µC)/(5.5µF)=5V
+
+![image](https://user-images.githubusercontent.com/105684550/179122698-d741cf50-320e-47b7-b0ef-398e7dbbc405.png)
+
+C_T=C_1+C_2+C_3=50pF+319.72pF+319.72pF=689.44pF
+
+Q_T=C_T*V=(689.44pF)(10V)=6894.4pC
+
+V=(6894.4pC)/(689.44pF)=10V
+
+![image](https://user-images.githubusercontent.com/105684550/179122725-9e29be98-3aa4-4e35-8f11-fd75b164e97e.png)
+
+C_T=n*C=(5)(1µF)=5µF
+
+Q_T=C_T*V=(5µF)(10V)=50µC
+
+V=(50µC)/(5µF)=10V
+
+30. Determine la constante de tiempo para cada una de las combinaciones en serie:
+- a) R = 100 Ω, C = 1 µF
+
+ꚍ =RC = (100 Ω)(1*10^-6F)=0.0001 s
+
+- b) R = 10 MΩ, C = 47 pF
+
+ꚍ =RC = (10*10^6Ω)(4.7*10^-11F)=0.0004 s
+
+- c) R = 4.7 kΩ, C = 0.0047 µF
+
+ꚍ =RC = (4700 Ω)(4.7*10^-9F)=0.00002 s
+
+- d) R = 1.5 MΩ, C = 0.01 µF
+
+ꚍ =RC = (1.5*10^6 Ω)(1*10^-8F)=0.015 s
+
+32. En el circuito de la figura 12-74, inicialmente el capacitor está descargado. Determine el voltaje presente en el capacitor en los instantes posteriores al cierre del interruptor:
+ 
+![image](https://user-images.githubusercontent.com/105684550/179123949-e47917ea-f88d-45e0-94d2-f9ea4a26827d.png)
+
+- a) 10µs 
+
+RC=(10kΩ)(0.001 µF)=10 µs
+
+vc=(10V)e^-(10 µs /10 µs) =(10V)e^-1 =(10V)(0.367)=5.505 V
+
+- b) 20µs 
+
+RC=(10kΩ)(0.001 µF)=10 µs
+
+vc=(10V)e^-(20µs /10 µs) =(10V)e^-2 =(10V)(0.1353)=1.353 V
+
+- c) 30µs 
+
+RC=(10kΩ)(0.001 µF)=10 µs
+
+vc=(10V)e^-(30µs /10 µs) =(10V)e^-3 =(10V)(0.0497)=0.497 V
+
+- d) 40µs 
+
+RC=(10kΩ)(0.001 µF)=10 µs
+
+vc=(10V)e^-(40 µs /10 µs) =(10V)e^-4 =(10V)(0.0183)=0.183 V
+
+- e) 50µs 
+
+RC=(10kΩ)(0.001 µF)=10 µs
+
+vc=(10V)e^-(50 µs /10 µs) =(10V)e^-5 =(10V)(0.006)=0.06 V
+
+34. Repita el problema 32 con los siguientes intervalos de tiempo:
+
+- a)2µs 
+
+RC=(10kΩ)(0.001 µF)=10 µs
+
+vc=(10V)e^-(2 µs /10 µs) =(10V)e^-(0.2) =(10V)(0.818)=8.18 V
+
+- b) 5µs 
+
+RC=(10kΩ)(0.001 µF)=10 µs
+
+vc=(10V)e^-(5µs /10 µs) =(10V)e^-(0.5) =(10V)(1.648)=16.48 V
+
+- c) 15µs 
+
+RC=(10kΩ)(0.001 µF)=10 µs
+
+vc=(10V)e^-(15µs /10 µs) =(10V)e^-(1.5) =(10V)(0.223)=2.23 V
+
+36. Derive la fórmula para determinar el tiempo en cualquier punto de una curva de voltaje exponencial creciente. Use esta fórmula para calcular el tiempo en el cual el voltaje que aparece en la figura 12-76 llega a 6 V después de cerrar el interruptor.
+ 
+![image](https://user-images.githubusercontent.com/105684550/179124147-d8d67981-be58-4c76-9e18-77589cd5abfe.png)
+
+t=-(0.01µF)(2.2 kΩ) ln(6V/12V)
+
+t=-(22µs)(-0.69)
+
+t=15.18 µs
+
+38. ¿Cuánto tiempo requiere el capacitor C para descargarse a 3 V en la figura 12-75?
+ 
+![image](https://user-images.githubusercontent.com/105684550/179124170-3653459c-f2fe-4023-90d3-9f25359896f9.png)
+
+t=-(1.5µF)(1.0kΩ) ln(3V/25V)
+
+t=-(1500µs)(-2.12)
+
+t=3180 µs
+
+40. En la figura 12-78, inicialmente el capacitor está descargado. En el instante t  10 ms después de que se cierra el interruptor, el voltaje instantáneo en el capacitor es de 7.2 V. Determine el valor de R
+
+![image](https://user-images.githubusercontent.com/105684550/179124204-0672c8a3-9816-4613-b05e-87b7ff44193d.png)
+
+R=-t/Cln(v/Vi)
+
+R=-(0.01s)/(1*10-9F)ln(7.2/10)
+
+R=30441.02 kΩ
+
+42. ¿Cuál es el valor de la reactancia capacitiva total en cada circuito de la figura 12-80?
+ 
+![image](https://user-images.githubusercontent.com/105684550/179124233-a11b9eb3-aaaa-4cd8-8060-a11eaae49ac2.png)
+ 
+Xc=1/2πfC
+
+Xc= 1/2π(1000)(4.7*10^-11)
+
+Xc=3389.83 kΩ
+
+![image](https://user-images.githubusercontent.com/105684550/179124258-d9ed5f8b-c9ac-441c-bdaf-b3c154feeafe.png)
+
+CT=10µF+15µF
+
+CT=25µ F
+
+Xc= 1/2π(1)(2.5*10-5F)
+
+Xc=6.36 kΩ
+
+![image](https://user-images.githubusercontent.com/105684550/179124284-3359f287-520a-47c3-ba3a-2cedeaf630f3.png)
+
+CT=1/2 µF
+
+Xc= 1/2π(60)(5*10^-7F)
+
+Xc=5.31 kΩ
+
+44. En cada circuito de la figura 12-80, ¿qué frecuencia se requiere para producir una XC de 100 Ω? 
+- a) f=1/2πCXc
+
+f= 1/2π(100)(4.7*10^-11)
+
+f= 4.7*10^-9 Hz
+
+- b) f=1/2πCXc
+
+f= 1/2π(100)(2.5*10-5)
+
+f= 63.66 Hz
+
+- c) f=1/2πCXc
+
+f= 1/2π(100)( 5*10^-7F)
+
+f= 3120.68 Hz
+
+46. Se aplica un voltaje de 10 kHz a un capacitor de 0.0047 mF, y se mide una corriente rms de 1 mA. ¿Cuál es el valor del voltaje?
+
+I= V/Xc
+
+V=I/Xc
+
+V=(1mA)/2 π (10000)(4.7*10-9)
+
+V=3386275.39 V
+
+48. Determine el voltaje de ca entre las terminales de cada capacitor y la corriente en cada rama del circuito de la figura 12-81.
+ 
+![image](https://user-images.githubusercontent.com/105684550/179124389-7f13da5d-244d-4e14-9802-b22234ffd8a8.png)
+
+CT=0.007 µF
+
+IT=758 *10^6 A
+
+- V1=(0.007 µF)(10v)/(0.01 µF)
+
+V1=7 V
+
+- V2=(0.007 µF)(10V)/(0.022 µF)
+
+V2=3.18 V
+
+- V3=(0.007 µF)(10V)/(0.015 µF)
+
+V3=4.66 V
+
+- V4=(0.007 µF)(10V)/(0.047 µF)
+
+V4=1.49 V
+
+- V5eq=(0.007 µF)(10V)/(0.006 µF)
+
+V5eq=11.67 V
+
+50. Si en la figura 12-81 C4 se abriera, determine los voltajes que se medirían entre las terminales de los otros capacitores
+CT=0.007 µF
+ 
+![image](https://user-images.githubusercontent.com/105684550/179124493-60f7f826-c3fc-4fa3-b98c-0b8e73fb7808.png)
+
+- V1=(0.007 µF)(10v)/(0.01 µF)
+
+V1=7 V
+
+- V2=(0.007 µF)(10V)/(0.022 µF)
+
+V2=3.18 V
+
+- V3eq=(0.007 µF)(10V)/(0.026 µF)
+
+V3eq=2.69 V
+
+52. Idealmente, ¿cuál deberá ser la reactancia de un capacitor de desvío para eliminar un voltaje de ca de 10 kHz en un punto dado en un circuito amplificador?
+
+Un capacitor podría ser lo suficiente enorme al ser conectado a partir de un punto de polarización hacia tierra lo que genera una trayectoria de baja reactancia en voltajes ca y deja el voltaje de polarización de cd c en constante en el punto dado. Entonces la frecuencia como es baja el capacitor de desvió pierde eficiencia ya que la reactancia aumenta. 
+
+5.- Video
+
+6.- Conclusiones
+
+- La CA una vez generada y distribuida a enormes distancia, es disminuida en su diferencia de potencial y aumentada su corriente, lo cual posibilita su uso de la casa, comercial e industrial. Es de mucha trascendencia las características de los circuitos CA, ya que han sido por un largo tiempo y son el soporte diario de la ingeniería eléctrica y la electrónica en el reparto de energía, iluminación, producción y sistemas industriales. En la actualidad, casi toda la corriente doméstica, comercial e industrial, es corriente alterna, esto es, corriente que invierte sentido constante y regularmente frecuentemente por segundo. 
+
+- Se ha podido determinar varias de las funciones del osciloscopio tales como medir la elevación de las señales observadas en la pantalla, se dirige manipulando los controles del bloque vertical. El ancho de las señales observadas en la pantalla, se controlan manipulando los controles del bloque horizontal. El equilibrio de la imagen en la pantalla se consigue manipulando los controles del bloque de sincronismo. 
+
+- Se pudo observar que en la aplicación de circuito el proceso de cómo usar un capacitor para acoplar voltajes de señales hacia y a partir de un amplificador. Además se localizo fallas en el amplificador mediante maneras de onda vistas en un osciloscopio 
+
+7.- Bibliografía
+
+- Planas, O. (2016, agosto 9). Corriente alterna (CA) - Frecuencias, concepto y definición. Energía solar. Recuperado julio 11, 2022, de https://solar-energia.net/electricidad/corriente-electrica/corriente-alterna
+
+- Roberths, P. (2017, agosto 20). El voltaje alterno. coparoman. Recuperado julio 11, 2022, de https://coparoman.blogspot.com/2017/08/el-voltaje-alterno.html
+
+- Floyd, T. (2007). Principios de circuitos eléctricos (Octava ed.). PEARSON EDUCACIÓN.
