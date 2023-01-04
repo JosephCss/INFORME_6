@@ -861,6 +861,8 @@ Un capacitor podría ser lo suficiente enorme al ser conectado a partir de un pu
 
 5.- Video
 
+https://youtu.be/0S7oA9SpIy8
+
 6.- Conclusiones
 
 - La CA una vez generada y distribuida a enormes distancia, es disminuida en su diferencia de potencial y aumentada su corriente, lo cual posibilita su uso de la casa, comercial e industrial. Es de mucha trascendencia las características de los circuitos CA, ya que han sido por un largo tiempo y son el soporte diario de la ingeniería eléctrica y la electrónica en el reparto de energía, iluminación, producción y sistemas industriales. En la actualidad, casi toda la corriente doméstica, comercial e industrial, es corriente alterna, esto es, corriente que invierte sentido constante y regularmente frecuentemente por segundo. 
