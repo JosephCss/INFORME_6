@@ -5,7 +5,7 @@
 
 	1.1	GENERAL: 
 
-Fundamentar e evaluar sistemas de corriente y voltaje alterno, relacionandolos con circuitos capacitivos. 
+Resolver ejercicios referente a sistemas de corriente y voltaje alterno, relacionandolos con circuitos capacitivos. 
 
 	1.2	ESPECÍFICOS:
 
