@@ -857,7 +857,12 @@ V3eq=2.69 V
 
 52. Idealmente, ¿cuál deberá ser la reactancia de un capacitor de desvío para eliminar un voltaje de ca de 10 kHz en un punto dado en un circuito amplificador?
 
-Un capacitor podría ser lo suficiente enorme al ser conectado a partir de un punto de polarización hacia tierra lo que genera una trayectoria de baja reactancia en voltajes ca y deja el voltaje de polarización de cd c en constante en el punto dado. Entonces la frecuencia como es baja el capacitor de desvió pierde eficiencia ya que la reactancia aumenta. 
+![](https://github.com/Shirley-Erazo9/Informe-6/blob/main/EJ55.png)
+
+
+54. En un circuito de capacitor conmutado, el capacitor de 100 pF se conmuta a una frecuencia de 8 kHz. ¿Qué valor de resistor se emula?
+
+![](https://github.com/Shirley-Erazo9/Informe-6/blob/main/EJU.png)
 
 5.- Video
 
@@ -865,13 +870,14 @@ https://youtu.be/0S7oA9SpIy8
 
 6.- Conclusiones
 
-- La CA una vez generada y distribuida a enormes distancia, es disminuida en su diferencia de potencial y aumentada su corriente, lo cual posibilita su uso de la casa, comercial e industrial. Es de mucha trascendencia las características de los circuitos CA, ya que han sido por un largo tiempo y son el soporte diario de la ingeniería eléctrica y la electrónica en el reparto de energía, iluminación, producción y sistemas industriales. En la actualidad, casi toda la corriente doméstica, comercial e industrial, es corriente alterna, esto es, corriente que invierte sentido constante y regularmente frecuentemente por segundo. 
+•Para poder visualizar las gráficas de las ondas en un circuito, la herramienta o el dipositivo que se utiliza es el osciloscopio ddo que atraves de su pantalla se puede visalizar la traza de la señal eléctrica medida.
 
-- Se ha podido determinar varias de las funciones del osciloscopio tales como medir la elevación de las señales observadas en la pantalla, se dirige manipulando los controles del bloque vertical. El ancho de las señales observadas en la pantalla, se controlan manipulando los controles del bloque horizontal. El equilibrio de la imagen en la pantalla se consigue manipulando los controles del bloque de sincronismo. 
+• Podemos decir que un voltaje alterno es aque que cambia de polaridad con cierta rapidéz, por otra parte al hablar de ondas sinusoidales o ondas senos son aquellas que se repiten en intervlos fíjos la implementación de estos conceptos han dado enfasis en el análisis circuitos de corriente alterna.
 
-- Se pudo observar que en la aplicación de circuito el proceso de cómo usar un capacitor para acoplar voltajes de señales hacia y a partir de un amplificador. Además se localizo fallas en el amplificador mediante maneras de onda vistas en un osciloscopio 
+• los capacitadores son un componente electrónico pasivo y se puede desarrollar en circuitos electrónicos, como en los analógicos y digitales.
+
 
 7.- Bibliografía
 
 
-- Floyd, T. (2007). Principios de circuitos eléctricos (Octava ed.). PEARSON EDUCACIÓN.
+FLOYD, T. L. ( 2007). Principios de circuitos eléctricos.(Octava edición). Naucalpan de Juárez, Mexico: PEARSON EDUCACIÓN
