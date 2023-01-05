@@ -873,8 +873,5 @@ https://youtu.be/0S7oA9SpIy8
 
 7.- Bibliografía
 
-- Planas, O. (2016, agosto 9). Corriente alterna (CA) - Frecuencias, concepto y definición. Energía solar. Recuperado julio 11, 2022, de https://solar-energia.net/electricidad/corriente-electrica/corriente-alterna
-
-- Roberths, P. (2017, agosto 20). El voltaje alterno. coparoman. Recuperado julio 11, 2022, de https://coparoman.blogspot.com/2017/08/el-voltaje-alterno.html
 
 - Floyd, T. (2007). Principios de circuitos eléctricos (Octava ed.). PEARSON EDUCACIÓN.
