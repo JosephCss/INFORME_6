@@ -874,7 +874,7 @@ https://youtu.be/0S7oA9SpIy8
 
 • Podemos decir que un voltaje alterno es aque que cambia de polaridad con cierta rapidéz, por otra parte al hablar de ondas sinusoidales o ondas senos son aquellas que se repiten en intervlos fíjos la implementación de estos conceptos han dado enfasis en el análisis circuitos de corriente alterna.
 
-• los capacitadores son un componente electrónico pasivo y se puede desarrollar en circuitos electrónicos, como en los analógicos y digitales.
+• Los capacitadores son un componente electrónico pasivo y se puede desarrollar en circuitos electrónicos, como en los analógicos y digitales.
 
 
 7.- Bibliografía
